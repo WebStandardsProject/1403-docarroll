@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22393dba-a54c-46d1-b4b4-f97e5791537c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/index.html" afterPath="$PROJECT_DIR$/projects/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/page_01.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/page_02.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/page_03.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/page_04.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/page_05.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="1403-docarroll.iws" />
@@ -26,19 +30,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="14" selection-start="165" selection-end="165" vertical-scroll-proportion="-12.16" vertical-offset="0" max-vertical-offset="480">
+            <state line="21" column="0" selection-start="167" selection-end="167" vertical-scroll-proportion="0.64615387" vertical-offset="0" max-vertical-offset="520">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/projects/index.html">
+      <file leaf-file-name="page_01.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/page_01.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="99" selection-end="99" vertical-scroll-proportion="0.18461539" vertical-offset="0" max-vertical-offset="520">
+            <state line="14" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="-8.96" vertical-offset="0" max-vertical-offset="480">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page_02.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/page_02.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="83" selection-end="83" vertical-scroll-proportion="-5.12" vertical-offset="0" max-vertical-offset="480">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page_03.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/page_03.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="83" selection-end="165" vertical-scroll-proportion="-5.12" vertical-offset="0" max-vertical-offset="480">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page_04.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/page_04.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="4" selection-start="88" selection-end="166" vertical-scroll-proportion="-5.76" vertical-offset="0" max-vertical-offset="480">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page_05.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/page_05.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="76" selection-end="76" vertical-scroll-proportion="-4.48" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
@@ -61,6 +101,11 @@
         <option value="$PROJECT_DIR$/project/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/projects/index.html" />
+        <option value="$PROJECT_DIR$/projects/page_04.html" />
+        <option value="$PROJECT_DIR$/projects/page_05.html" />
+        <option value="$PROJECT_DIR$/projects/page_03.html" />
+        <option value="$PROJECT_DIR$/projects/page_02.html" />
+        <option value="$PROJECT_DIR$/projects/page_01.html" />
       </list>
     </option>
   </component>
@@ -111,6 +156,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="1403-docarroll" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1403-docarroll" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1403-docarroll" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -205,7 +264,11 @@
       <created>1393988347879</created>
       <updated>1393988347879</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial commit&#10;">
+      <created>1393990140419</created>
+      <updated>1393990140419</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -253,16 +316,51 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/projects/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="14" selection-start="165" selection-end="165" vertical-scroll-proportion="-12.16" vertical-offset="0" max-vertical-offset="480">
+        <state line="6" column="0" selection-start="99" selection-end="99" vertical-scroll-proportion="0.18461539" vertical-offset="0" max-vertical-offset="520">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/index.html">
+    <entry file="file://$PROJECT_DIR$/projects/page_05.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="99" selection-end="99" vertical-scroll-proportion="0.18461539" vertical-offset="0" max-vertical-offset="520">
+        <state line="7" column="0" selection-start="76" selection-end="76" vertical-scroll-proportion="-4.48" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/page_04.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="4" selection-start="88" selection-end="166" vertical-scroll-proportion="-5.76" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/page_03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="83" selection-end="165" vertical-scroll-proportion="-5.12" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/page_02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="83" selection-end="83" vertical-scroll-proportion="-5.12" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/page_01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="-8.96" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="167" selection-end="167" vertical-scroll-proportion="0.64615387" vertical-offset="0" max-vertical-offset="520">
           <folding />
         </state>
       </provider>
