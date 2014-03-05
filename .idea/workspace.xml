@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22393dba-a54c-46d1-b4b4-f97e5791537c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/page_01.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/page_02.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/page_03.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/page_04.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/page_05.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="1403-docarroll.iws" />
@@ -268,7 +263,11 @@
       <created>1393990140419</created>
       <updated>1393990140419</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Initial commit&#10;">
+      <created>1393990465621</created>
+      <updated>1393990465621</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
