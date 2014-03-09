@@ -41,6 +41,9 @@ nav li {
 	display:inline;
 	text-decoration: none;
 }
+
+/* Nav Pseudo States */
+
 a {
 	text-decoration: none;
 	color:black;
@@ -49,6 +52,10 @@ a {
 a:visited{
 	text-decoration: none;
 	color:black;
+}
+
+a:hover {
+	color:white;
 }
 
 /* This is the UX Plan Box */
