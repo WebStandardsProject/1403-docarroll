@@ -22,6 +22,9 @@
 	text-align: center;
 }
 
+.floatRight {
+	float:right;
+}
 
 .top-bar {
 	margin-top:0;
