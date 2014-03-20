@@ -121,7 +121,7 @@ input {
  
 .grid li {
     display: inline-block;
-    width: 440px;
+    width: 400px;
     margin: 0;
     padding: 20px;
     text-align: left;
@@ -144,8 +144,8 @@ input {
     top: 0;
     left: 0;
     padding: 20px;
-    background: #2c3f52;
-    color: #ed4e6e;
+    background: #00650e;
+    color: #6d6a6a;
 }
 
 .grid figcaption h3 {
@@ -154,17 +154,6 @@ input {
     color: #fff;
 }
  
-
- 
-.grid figcaption a {
-    text-align: center;
-    padding: 5px 10px;
-    border-radius: 2px;
-    display: inline-block;
-    background: #ed4e6e;
-    color: #fff;
-}
-
 @media screen and (max-width: 31.5em) {
     .grid {
         padding: 10px 10px 100px 10px;
