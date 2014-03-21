@@ -2,24 +2,61 @@ $(document).ready(function(){
 $('.searchBox').hide();
 $('.loginBox').hide();
 $('.detailsBox').hide();	
-$
-( ".searchBtn" ).click(function() {
+$('.signUpBox').hide();
+
+//Btn Toggles
+$(".searchBtn" ).click(function() {
+	//Hide other Boxes on show
+	$('.loginBox').hide();
+	$('.detailsBox').hide();
+	$('.signUpBox').hide();
   $( ".searchBox" ).slideToggle( "slow", function() {
     // Animation complete.
+    
+  });
+});
+
+$(".signUpBtn" ).click(function() {
+	//Hide other Boxes on show
+	$('.loginBox').hide();
+	$('.detailsBox').hide();
+	$('.searchBox').hide();
+  $( ".signUpBox" ).slideToggle( "slow", function() {
+    // Animation complete.
+    
   });
 });
 
 $( ".loginBtn" ).click(function() {
+	//Hide other Boxes on show
+	$('.detailsBox').hide();
+	$('.searchBox').hide();
+	$('.signUpBox').hide();
   $( ".loginBox" ).slideToggle( "slow", function() {
     // Animation complete.
   });
 });
 
-$( ".deatilsBtn" ).click(function() {
+$( ".detailsBtn" ).click(function() {
+	//Hide other Boxes on show
+	$('.loginBox').hide();
+	$('.searchBox').hide();
+	$('.signUpBox').hide();
   $( ".detailsBox" ).slideToggle( "slow", function() {
     // Animation complete.
   });
 });
+
+$('.cancel').click(function(){
+	$('.loginBox').hide();
+});
+$('.cancel2').click(function(){
+	$('.signUpBox').hide();
+});
+$('.back').click(function(){
+	$('.detailsBox').hide();
+	$(".searchBox").show();
+})
 
 
 });

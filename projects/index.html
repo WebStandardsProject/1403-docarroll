@@ -38,8 +38,8 @@
       <li class="has-dropdown">
         <a href="#">Menu</a>
         <ul class="dropdown">
-          <li><a href="#">Log In</a></li>
-          <li><a href="#">Sign Up</a></li>
+          <li><a href="#"><span class="loginBtn">Log In</span></a></li>
+          <li><a href="#"><span class="signUpBtn">Sign Up</span>  </a></li>
           <li><a href="#">Cart</a></li>
           <li><a href="#">Contact Us</a></li>
         </ul>
@@ -55,21 +55,44 @@
 
        <img src="img/HerbalAlternative_01.jpg">
     </div>
+  
 
+  <!-- Login Box-->
     <div class="loginBox">
-    <form>
       <span class="floatRight cancel">X</span>
+      <h3>Log In</h3>
+    <form>
+      
     <label for="userName">Username:</label>
     <input type="text" placeholder="Ex. user@something.com" id="userName">
     <label for="pasword">Password:</label>
-    <input type="text" placeholder="password" id="password">
-    <span>Not a user? Sign Up!</span>
+    <input type="password" placeholder="password" id="password">
+    <span>Not a user? <span class="signUpBtn">Sign Up!</span>
     <input type="submit" class="floatRight">
 
     </form>
 
     </div>
 
+<!-- Sign Up Box-->
+    <div class="signUpBox">
+    <form>
+       <span class="floatRight cancel2">X</span>
+      <h3>Sign Up</h3>
+     
+    <label for="userName">Username:</label>
+    <input type="text" placeholder="Ex. user@something.com" id="userName">
+     <label for="confirmUserName">Confirm Username:</label>
+    <input type="text" placeholder="Ex. user@something.com" id="confirmUserName">
+    <label for="password">Password:</label>
+    <input type="password" placeholder="password" id="password">
+     <label for="confirmPassword">Confirm Password:</label>
+    <input type="password" placeholder="password" id="confrimPassword">
+    <input type="submit" class="floatRight">
+
+    </form>
+
+    </div>
 
 
     <!-- Details Box -->
@@ -78,13 +101,14 @@
         <div class="large-4 columns">
           <h3 class="alignCenter">Chamomile</h3>
           <img src="img/HerbalAlternatives_04.jpg">
-
+           
         </div>
      
         <div class="large-8 columns">
         <h3>Its Uses</h3>
         <p>Chamomile is an herb that people have used for centuries. People in the United States probably know it as tea to calm an upset stomach or to help with sleep. Two types of chamomile are used for good health: German chamomile (Matricaria retutica) and Roman (or English) chamomile (Chamaemelum nobile). </p>
         <p>People use German chamomile to treat irritation from chest colds, slow-healing wounds, abscesses, gum inflammation, and skin conditions such as psoriasis, eczema, chickenpox, and diaper rash. For these conditions, you use chamomile in an infusion or bath, or as a tincture, which is a concentrated extract mixed with alcohol. People use Roman chamomile as a tea to treat an upset stomach, sleeping problems, or menstrual pain. </p>
+        <div class="back">Back to Search</div> <div class="button floatRight">Buy Now</div>
         </div> 
       </div>
     </div>
@@ -118,7 +142,7 @@
           
           <!-- Slider -->
           <ul class="example-orbit" data-orbit>
-  <li>
+  <li class="detailsBtn">
     <img src="img/HerbalAlternatives_04.jpg" alt="slide 1" />
     <div class="orbit-caption">
       Chamomile
@@ -165,7 +189,7 @@
         </figure>
       </li>
     
-    <li>
+    <li class="detailsBtn">
       <figure>
         <img src="img/HerbalAlternatives_04.jpg" class="btn">
           <figcaption>
@@ -176,7 +200,7 @@
     </li>  
 
    
-  <li>
+  <li class="signUpBtn">
     <figure>
       <img src="img/HerbalAlternatives_03.jpg" class="btn">
         <figcaption>

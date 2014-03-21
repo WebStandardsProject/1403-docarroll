@@ -10,7 +10,7 @@
 
 .loginBox {
 	width:30%;
-	height:200px;
+	height:250px;
 	position:absolute;
 	top:50px;
 	right:50px;
@@ -18,6 +18,18 @@
 	background:rgba(255,255,255, 0.5);
 	padding:1%;
 }
+
+.signUpBox {
+	width:30%;
+	height:390px;
+	position:absolute;
+	top:50px;
+	right:50px;
+	z-index:2;
+	background:rgba(255,255,255, 0.5);
+	padding:1%;
+}
+
 .alignCenter {
 	text-align: center;
 }
@@ -108,6 +120,15 @@ input {
 	height:195px;
 }
 
+
+.back {
+	border-top:solid 2px grey;
+	color:white;
+}
+
+.back:hover {
+	color:grey;
+}
 
 
 /* Button Hovers */
