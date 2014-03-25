@@ -3,6 +3,7 @@ $('.searchBox').hide();
 $('.loginBox').hide();
 $('.detailsBox').hide();	
 $('.signUpBox').hide();
+$('.contactBox').hide();
 
 //Btn Toggles
 $(".searchBtn" ).click(function() {
@@ -11,6 +12,18 @@ $(".searchBtn" ).click(function() {
 	$('.detailsBox').hide();
 	$('.signUpBox').hide();
   $( ".searchBox" ).slideToggle( "slow", function() {
+    // Animation complete.
+    
+  });
+});
+
+$(".contactBtn" ).click(function() {
+	//Hide other Boxes on show
+	$('.loginBox').hide();
+	$('.detailsBox').hide();
+	$('.signUpBox').hide();
+	$('.searchBox').hide();
+  $( ".contactBox" ).slideToggle( "slow", function() {
     // Animation complete.
     
   });
@@ -49,9 +62,8 @@ $( ".detailsBtn" ).click(function() {
 
 $('.cancel').click(function(){
 	$('.loginBox').hide();
-});
-$('.cancel2').click(function(){
 	$('.signUpBox').hide();
+	$('.contactBox').hide();
 });
 $('.back').click(function(){
 	$('.detailsBox').hide();

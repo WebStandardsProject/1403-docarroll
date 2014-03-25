@@ -1,0 +1,92 @@
+
+<!doctype html>
+<html>
+	<head>
+		<title>First Parallax Demo | danny</title>
+		<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			font-family: helvetica, arial;
+			padding-top: 40px;
+		}
+		h1 {
+			background-color: black;
+			color: white;
+			height: 40px;
+			font-size: 24px;
+			font-weight: normal;
+			left: 0;
+			line-height: 40px;
+			position: fixed;
+			text-align: center;
+			top: 0;
+			width: 100%;
+			z-index: 1;
+		}
+		h1 a {
+			border-bottom: 1px solid white;
+			color: white;
+			display: inline-block;
+			line-height: 30px;
+			text-decoration: none;
+		}
+		.photo {
+			background-attachment: fixed;
+			background-position: 50% 0;
+			background-repeat: no-repeat;
+			height: 450px;
+			position: relative;
+		}
+		.photo span {
+			bottom: 0;
+			color: white;
+			display: block;
+			left: 50%;
+			margin-left: -640px;
+			font-size: 38px;
+			padding: 10px;
+			position: absolute;
+			text-shadow: 0 2px 0 black, 0 0 10px black;
+			width: 1280px;
+		}
+		.princess {
+			background-image: url(images/Movie_01.jpg);
+		}
+		.detail {
+			background-color:black;
+		}
+		.spirited {
+			background-image: url(images/Movie_02.jpg);
+		}
+		.detail {
+			background-color:black;
+		}
+
+		.howls {
+			background-image: url(images/Movie_03.jpg);
+		}
+		</style>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="../js/stellar.js"></script>
+		<script>
+		$(function(){
+			$.stellar({
+				horizontalScrolling: false,
+				verticalOffset: 40
+			});
+		});
+		</script>
+	</head>
+	<body>
+		<h1>My First Parralax Attempt | Favorite Movies</h1>
+		<div class="photo princess" data-stellar-background-ratio="0.5"><span>Princess Mononoke</span></div>
+		<div class="photo detail" data-stellar-background-ratio="0.5"><span>In Muromachi period Japan, an Emishi village is attacked by a demon (祟り神 tatari-gami?). The last Emishi prince, Ashitaka, kills the demon before it reaches the village, but not before its corruption curses his right arm. The curse gives him superhuman fighting ability, but will eventually kill him. The demon is revealed to be a boar god, Nago, corrupted by an iron ball lodged in his body. The village's wise woman (Oracle in the original dub) tells Ashitaka that he may find a cure in the western lands Nago came from under exile</span></div>
+		<div class="photo spirited" data-stellar-background-ratio="0.5"><span>Spirited Away</span></div>
+		<div class="photo detail" data-stellar-background-ratio="0.5"><span>In the middle of her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and monsters; where humans are changed into animals; and a bathhouse for these creatures. In the middle of her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and monsters; where humans are changed into animals; and a bathhouse for these creatures.</span></div>
+		<div class="photo howls" data-stellar-background-ratio="0.5"><span>Howl's moving castle</span></div>
+		<div class="photo detail" data-stellar-background-ratio="0.5"><span>When an unconfident young woman is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking home. When an unconfident young woman is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking home.</span></div>
+	</body>
+</html>
