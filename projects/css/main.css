@@ -1,6 +1,6 @@
 .jumbotron img {
 	width:100%;
-	height:500px;
+	overflow:hidden;
 }
 
 .green {
@@ -9,10 +9,27 @@
 	font-size:3em;
 }
 
+.green2 {
+	font-family: "Averia Sans Libre", cursive;
+	color:#00650e;
+	font-size:2em;
+}
+
 .brown {
 	color:#544927;
 	font-family:"Gafata", sans-serif;
 	font-size:3em;
+}
+
+.brown2 {
+	color:#544927;
+	font-family:"Gafata", sans-serif;
+	font-size:1.2em;
+}
+
+.brown3 {
+	color:#544927;
+	font-family:"Gafata", sans-serif;
 }
 
 .gafata {
@@ -32,9 +49,9 @@
 
 .loginBox {
 	width:30%;
-	height:280px;
+	height:340px;
 	position:absolute;
-	top:50px;
+	top:80px;
 	right:50px;
 	z-index:2;
 	background:rgba(255,255,255, 0.5);
@@ -43,9 +60,9 @@
 
 .signUpBox, .contactBox {
 	width:30%;
-	height:430px;
+	height:485px;
 	position:absolute;
-	top:50px;
+	top:80px;
 	right:50px;
 	z-index:2;
 	background:rgba(255,255,255, 0.5);
@@ -100,9 +117,9 @@
 .searchBox, .detailsBox {
 	width:100%;
 	position: absolute;
-	top:95px;
+	top:80px;
 	z-index:1;
-	height:450px;
+	height:485px;
 	background:rgba(255,255,255, 0.5);
 }
 
@@ -136,8 +153,9 @@ input {
 
 .button:hover {
 	background: none;
-	border-top:solid 2px black;
-	border-bottom:solid 2px black;
+	color: #77c163;
+	border-top:solid 2px #77c163;
+	border-bottom:solid 2px #77c163;
 
 }
 
@@ -162,7 +180,7 @@ input {
 }
 
 .back:hover {
-	color:grey;
+	color:#77c163;
 }
 
 
@@ -252,13 +270,14 @@ footer {
 	color:#77c163;
 	margin:0;
 	padding:0;
-	height:41px;
-	line-height: 41px;
+	height:80px;
+	line-height: 80px;
+	font-size:1.5em;
 	box-shadow:inset 0 0 10px black;
 }
 
 .contactBox {
-	height:400px;
+	height:485px;
 }
 .contactBox input[type="textarea"] {
 	width:100%;
@@ -268,4 +287,8 @@ footer {
 
 .marginBottom {
 	margin-bottom:10px;
+}
+
+.alignLeft {
+	text-align: left;
 }
