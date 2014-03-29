@@ -66,6 +66,8 @@ $('.cancel').click(function(){
 	$('.loginBox').hide();
 	$('.signUpBox').hide();
 	$('.contactBox').hide();
+	$('.detailsBox').hide();
+	$('.searchBox').hide();
 });
 $('.back').click(function(){
 	$('.detailsBox').hide();
