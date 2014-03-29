@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Herbal Alternatives | Home</title>
 
+  <!-- This is the link to Google Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Gafata|Averia+Sans+Libre' rel='stylesheet' type='text/css'>
+
   <!-- If you are using CSS version, only link these 2 files, you may add app.css to use for your overrides if you like. -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/foundation.css">
@@ -24,7 +27,7 @@
 
   <ul class="title-area">
     <li class="name">
-      <h1><a href="#">Herbal Alternatives</a></h1>
+      <h1><a href="index.html"><span class="green">Herbal</span><span class="brown">Alternatives</span></a></h1>
 
     </li>
     <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
@@ -36,11 +39,10 @@
       
       
       <li class="has-dropdown">
-        <a href="#">Menu</a>
+        <a href="#" class="hemp">Menu</a>
         <ul class="dropdown">
           <li><a href="#"><span class="loginBtn">Log In</span></a></li>
           <li><a href="#"><span class="signUpBtn">Sign Up</span></a></li>
-          <li><a href="#">Cart</a></li>
           <li><a href="#"><span class="contactBtn">Contact Us</span></a></li>
         </ul>
       </li>
@@ -68,7 +70,7 @@
     <label for="pasword">Password:</label>
     <input type="password" placeholder="password" id="password">
     <span>Not a user? <span class="signUpBtn">Sign Up!</span>
-    <input type="submit" class="floatRight">
+    <input type="submit" class="floatRight button" value="Log In">
 
     </form>
 
@@ -88,7 +90,7 @@
     <input type="password" placeholder="password" id="password">
      <label for="confirmPassword">Confirm Password:</label>
     <input type="password" placeholder="password" id="confrimPassword">
-    <input type="submit" class="floatRight">
+    <input type="submit" class="floatRight button" value="Sign Up">
 
     </form>
 
@@ -106,7 +108,7 @@
     <input type="text" placeholder="Ex. user@something.com" id="confirmEMail">
     <label for="message">Message:</label>
     <textarea rows="4" id="message" placeholder="Write your message here"></textarea>
-    <input type="submit" class="floatRight" value="Send">
+    <input type="submit" class="floatRight button" value="Send">
 
     </form>
 
@@ -202,8 +204,8 @@
         <figure class="searchBtn">
          <img src="img/HerbalAlternatives_02.jpg" class="btn">
           <figcaption>
-            <h3>Search</h3>
-                <span>for Herbal Alternatives</span>
+            <h3 class="averia">Search</h3>
+                <span class="gafata">for Herbal Alternatives</span>
           </figcaption>
         </figure>
       </li>
@@ -212,8 +214,8 @@
       <figure>
         <img src="img/HerbalAlternatives_04.jpg" class="btn">
           <figcaption>
-              <h3>Herb of the Month</h3>
-                  <span>Chamomile</span>
+              <h3 class="averia">Herb of the Month</h3>
+                  <span class="gafata">Chamomile</span>
           </figcaption>
       </figure>
     </li>  
@@ -223,8 +225,8 @@
     <figure>
       <img src="img/HerbalAlternatives_03.jpg" class="btn">
         <figcaption>
-          <h3>Sign Up</h3>
-              <span>for member benefits</span>
+          <h3 class="averia">Sign Up</h3>
+              <span class="gafata">for member benefits</span>
         </figcaption>
     </figure>
   </li>
@@ -239,6 +241,6 @@
   <script src="js/main.js"></script>
   <script>
     $(document).foundation();
-  </script>
+  </script>  
 </body>
 </html>

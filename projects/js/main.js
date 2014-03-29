@@ -34,6 +34,7 @@ $(".signUpBtn" ).click(function() {
 	$('.loginBox').hide();
 	$('.detailsBox').hide();
 	$('.searchBox').hide();
+	$('.contactBox').hide();
   $( ".signUpBox" ).slideToggle( "slow", function() {
     // Animation complete.
     
@@ -45,6 +46,7 @@ $( ".loginBtn" ).click(function() {
 	$('.detailsBox').hide();
 	$('.searchBox').hide();
 	$('.signUpBox').hide();
+	$('.contactBox').hide();
   $( ".loginBox" ).slideToggle( "slow", function() {
     // Animation complete.
   });
